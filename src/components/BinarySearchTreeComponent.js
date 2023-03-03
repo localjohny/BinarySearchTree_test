@@ -13,6 +13,9 @@ class BinarySearchTreeComponent extends React.Component {
       const value = Math.floor(Math.random() * 201) - 100;
       this.state.tree.insert(value);
       this.forceUpdate();
+    } else if (event.code === "KeyR") {
+      this.setState({ tree: new BinarySearchTree() });
+      this.forceUpdate();
     }
   }
 

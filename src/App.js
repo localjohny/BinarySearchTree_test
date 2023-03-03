@@ -8,7 +8,10 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="title">Binary Search Tree (Press Space)</h1>
+        <h2 className="title">
+          Binary Search Tree
+          <p>(Press "Space" for begin, Press "R" for restart)</p>
+        </h2>
         <BinarySearchTreeComponent />
       </div>
     );
