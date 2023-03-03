@@ -31,25 +31,17 @@ class BinarySearchTreeComponent extends React.Component {
 
     return (
       <div className="row d-flex justify-content-center">
-        <h1 className="circle">{node.value}</h1>
+        <h3 className="circle">{node.value}</h3>
         <div className="d-flex justify-content-between">
-          <div className="col left child">
-            <div>{this.renderTree(node.left)}</div>
-          </div>
-          <div className="col right child">
-            <div>{this.renderTree(node.right)}</div>
-          </div>
+          <div className="col">{this.renderTree(node.left)}</div>
+          <div className="col">{this.renderTree(node.right)}</div>
         </div>
       </div>
     );
   }
 
   render() {
-    return (
-      <div className="binary-search-tree">
-        {this.renderTree(this.state.tree.root)}
-      </div>
-    );
+    return this.renderTree(this.state.tree.root);
   }
 }
 

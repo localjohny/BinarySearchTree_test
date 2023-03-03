@@ -1,0 +1,13 @@
+.title {
+  text-align: center;
+}
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    line-height: 73px;
+    text-align: center;
+    background-color: lightgray;
+    border: 2px solid black;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./css/App.css";
+import "./styles/App.css";
 
 import BinarySearchTreeComponent from "./components/BinarySearchTreeComponent";
 
@@ -8,9 +8,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="d-flex justify-content-center">
-          Binary Search Tree (Press Space)
-        </h1>
+        <h1 className="title">Binary Search Tree (Press Space)</h1>
         <BinarySearchTreeComponent />
       </div>
     );
