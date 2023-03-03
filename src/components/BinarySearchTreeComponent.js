@@ -1,5 +1,5 @@
 import React from "react";
-import BinarySearchTree from "./BinarySearchTree";
+import BinarySearchTree from "../classes/BinarySearchTree";
 
 class BinarySearchTreeComponent extends React.Component {
   constructor(props) {

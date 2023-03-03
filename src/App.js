@@ -1,7 +1,8 @@
 import React from "react";
-import BinarySearchTreeComponent from "./BinarySearchTreeComponent";
 
-import "./App.css";
+import "./css/App.css";
+
+import BinarySearchTreeComponent from "./components/BinarySearchTreeComponent";
 
 class App extends React.Component {
   render() {
